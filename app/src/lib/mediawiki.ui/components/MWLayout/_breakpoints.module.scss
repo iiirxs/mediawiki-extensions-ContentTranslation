@@ -1,0 +1,43 @@
+// Break points
+$breakpoints: (
+  xs: 300px,
+  sm: 600px,
+  md: 960px,
+  lg: 1264px,
+  xl: 1904px
+);
+
+$viewports: (
+  "print": "only print",
+  "screen": "only screen",
+  "xs": "screen and (max-width: #{map-get($breakpoints, sm ) - 1})",
+  "sm":
+  "screen and (min-width: #{map-get($breakpoints, sm)}) and (max-width: #{map-get($breakpoints, md) - 1})",
+  "sm-and-down": "screen and (max-width: #{map-get($breakpoints, md) - 1})",
+  "sm-and-up": "screen and (min-width: #{map-get($breakpoints, sm)})",
+  "md":
+  "screen and (min-width: #{map-get($breakpoints, md)}) and (max-width: #{map-get($breakpoints, lg) - 1})",
+  "md-and-down": "screen and (max-width: #{map-get($breakpoints,lg) - 1})",
+  "md-and-up": "screen and (min-width: #{map-get($breakpoints, md)})",
+  "lg":
+  "screen and (min-width: #{map-get($breakpoints, lg)}) and (max-width: #{map-get($breakpoints, xl) - 1})",
+  "lg-and-down": "screen and (max-width: #{map-get($breakpoints, xl) - 1})",
+  "lg-and-up": "screen and (min-width: #{map-get($breakpoints, lg)})",
+  "xl": "screen and (min-width: #{map-get($breakpoints, xl)})"
+);
+
+// Export $viewports to javascript via sass-loader
+@each $name, $media_query in $viewports {
+  @value #{$name}: #{$media_query};
+}
+
+@mixin mediaQuery($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media only screen and (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}

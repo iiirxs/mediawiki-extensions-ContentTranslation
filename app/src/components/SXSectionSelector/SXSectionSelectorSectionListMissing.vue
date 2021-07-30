@@ -49,7 +49,8 @@ import { MwButton, MwRow, MwCol } from "@/lib/mediawiki.ui";
 import { mwIconArrowForward } from "@/lib/mediawiki.ui/components/icons";
 import { getAutonym } from "@wikimedia/language-data";
 import SectionSuggestion from "@/wiki/cx/models/sectionSuggestion";
-import SxSectionSelectorSectionList from "./SXSectionSelectorSectionList";
+import SxSectionSelectorSectionList from "./SXSectionSelectorSectionList.vue";
+import sadRobotSVG from "@/assets/sad-robot.svg?raw";
 
 export default {
   name: "SxSectionSelectorSectionListMissing",
@@ -67,7 +68,7 @@ export default {
   },
   data: () => ({
     mwIconArrowForward,
-    sadRobotSVG: require("!html-loader!@/assets/sad-robot.svg")
+    sadRobotSVG
   }),
   computed: {
     targetLanguageAutonym() {

@@ -22,12 +22,12 @@
           <div
             v-if="isActiveStep(1)"
             key="illustration-1"
-            v-html="tutorialSvgSections"
+            v-html="tutorialMTSVG"
           />
           <div
             v-if="isActiveStep(2)"
             key="illustration-2"
-            v-html="tutorialSvgMT"
+            v-html="tutorialSectionsSVG"
           />
         </transition>
       </section>
@@ -84,6 +84,8 @@
 <script>
 import { MwButton, MwRow } from "@/lib/mediawiki.ui";
 import { mwIconArrowForward } from "@/lib/mediawiki.ui/components/icons";
+import tutorialMTSVG from "@/assets/tutorial-mt.svg?raw";
+import tutorialSectionsSVG from "@/assets/tutorial-sections.svg?raw";
 export default {
   name: "SxQuickTutorial",
   components: {
@@ -94,8 +96,8 @@ export default {
     mwIconArrowForward,
     totalSteps: 2,
     activeStep: 1,
-    tutorialSvgMT: require("!html-loader!@/assets/tutorial-mt.svg"),
-    tutorialSvgSections: require("!html-loader!@/assets/tutorial-sections.svg")
+    tutorialMTSVG,
+    tutorialSectionsSVG
   }),
   methods: {
     goToNextStep() {

@@ -72,13 +72,13 @@
 import { MwButton, MwRow, MwCol } from "@/lib/mediawiki.ui";
 import { mwIconArrowPrevious } from "@/lib/mediawiki.ui/components/icons";
 
-import SxTranslationSelector from "./SXTranslationSelector";
+import SxTranslationSelector from "./SXTranslationSelector.vue";
 import { mapState, mapGetters, mapActions } from "vuex";
-import SxSentenceSelectorContentHeader from "./SXSentenceSelectorContentHeader";
-import ProposedTranslationCard from "./ProposedTranslationCard";
-import SubSection from "./SubSection";
+import SxSentenceSelectorContentHeader from "./SXSentenceSelectorContentHeader.vue";
+import ProposedTranslationCard from "./ProposedTranslationCard.vue";
+import SubSection from "./SubSection.vue";
 
-import TranslatedSegmentCard from "./TranslatedSegmentCard";
+import TranslatedSegmentCard from "./TranslatedSegmentCard.vue";
 
 export default {
   name: "SxSentenceSelector",

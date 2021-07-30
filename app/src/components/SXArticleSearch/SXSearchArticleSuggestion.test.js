@@ -1,6 +1,6 @@
 import { mount } from "@vue/test-utils";
 import Page from "../../wiki/mw/models/page";
-import SXSearchArticleSuggestion from "./SXSearchArticleSuggestion";
+import SXSearchArticleSuggestion from "./SXSearchArticleSuggestion.vue";
 
 describe("SXSearchArticleSuggestion", () => {
   const pageSuggestion = new Page({

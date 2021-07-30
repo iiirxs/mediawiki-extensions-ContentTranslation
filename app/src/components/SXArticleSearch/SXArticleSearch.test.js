@@ -1,7 +1,6 @@
 import { mount, createLocalVue } from "@vue/test-utils";
 import Page from "../../wiki/mw/models/page";
-import pageApi from "../../wiki/mw/api/page";
-import SXArticleSearch from "./SXArticleSearch";
+import SXArticleSearch from "./SXArticleSearch.vue";
 import Vuex from "vuex";
 import VueBananaI18n from "vue-banana-i18n";
 import SectionSuggestion from "../../wiki/cx/models/sectionSuggestion";

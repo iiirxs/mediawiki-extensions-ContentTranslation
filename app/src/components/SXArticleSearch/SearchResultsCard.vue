@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import SxSearchArticleSuggestion from "./SXSearchArticleSuggestion";
+import SxSearchArticleSuggestion from "./SXSearchArticleSuggestion.vue";
 import { MwCard, MwSpinner } from "@/lib/mediawiki.ui";
 import { getAutonym } from "@wikimedia/language-data";
 import { computed } from "@vue/composition-api";

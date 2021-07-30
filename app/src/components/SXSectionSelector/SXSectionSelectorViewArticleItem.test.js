@@ -4,7 +4,7 @@ import VueBananaI18n from "vue-banana-i18n";
 const localVue = createLocalVue();
 localVue.use(VueBananaI18n);
 
-import SXSectionSelectorViewArticleItem from "./SXSectionSelectorViewArticleItem";
+import SXSectionSelectorViewArticleItem from "./SXSectionSelectorViewArticleItem.vue";
 
 describe("SXSectionSelector View Article Item", () => {
   it("Component output matches snapshot for specified props", () => {

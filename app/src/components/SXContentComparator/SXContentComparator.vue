@@ -34,9 +34,9 @@
 <script>
 import { MwSpinner } from "@/lib/mediawiki.ui";
 import { mapGetters, mapState } from "vuex";
-import SxContentComparatorContentHeader from "./SXContentComparatorContentHeader";
-import SxContentComparatorHeader from "./SXContentComparatorHeader";
-import SxContentComparatorNewSectionPlaceholder from "./NewSectionPlaceholder";
+import SxContentComparatorContentHeader from "./SXContentComparatorContentHeader.vue";
+import SxContentComparatorHeader from "./SXContentComparatorHeader.vue";
+import SxContentComparatorNewSectionPlaceholder from "./NewSectionPlaceholder.vue";
 import Vue from "vue";
 export default {
   name: "SxContentComparator",
@@ -188,7 +188,7 @@ export default {
 @import "@/lib/mediawiki.ui/variables/wikimedia-ui-base.less";
 @import "@/styles/page.less";
 
-.sx-content-comparator {
+.sx-content-comparator__source-content {
   a {
     pointer-events: none;
   }

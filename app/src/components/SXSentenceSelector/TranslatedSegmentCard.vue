@@ -76,8 +76,8 @@ import {
   mwIconUserAvatar
 } from "@/lib/mediawiki.ui/components/icons";
 import { mapGetters, mapState } from "vuex";
-import TranslatedSegmentCardHeader from "./TranslatedSegmentCardHeader";
-import TranslatedSegmentCardActionButtons from "./TranslatedSegmentCardActionButtons";
+import TranslatedSegmentCardHeader from "./TranslatedSegmentCardHeader.vue";
+import TranslatedSegmentCardActionButtons from "./TranslatedSegmentCardActionButtons.vue";
 import mtValidator from "@/utils/mtValidator";
 export default {
   name: "TranslatedSegmentCard",

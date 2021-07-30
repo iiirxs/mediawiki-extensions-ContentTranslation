@@ -30,7 +30,7 @@
 import { mwIconArrowForward } from "@/lib/mediawiki.ui/components/icons";
 import { getAutonym } from "@wikimedia/language-data";
 import SectionSuggestion from "@/wiki/cx/models/sectionSuggestion";
-import SxSectionSelectorSectionList from "@/components/SXSectionSelector/SXSectionSelectorSectionList";
+import SxSectionSelectorSectionList from "@/components/SXSectionSelector/SXSectionSelectorSectionList.vue";
 
 export default {
   name: "SxSectionSelectorSectionListPresent",

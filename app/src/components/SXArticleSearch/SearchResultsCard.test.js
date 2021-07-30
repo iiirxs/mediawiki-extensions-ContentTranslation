@@ -1,6 +1,6 @@
 import { mount, createLocalVue } from "@vue/test-utils";
 import Page from "../../wiki/mw/models/page";
-import SearchResultsCard from "./SearchResultsCard";
+import SearchResultsCard from "./SearchResultsCard.vue";
 import Vuex from "vuex";
 import CompositionApi from "@vue/composition-api";
 import VueBananaI18n from "vue-banana-i18n";

@@ -1,5 +1,5 @@
 import { mount } from "@vue/test-utils";
-import SXSectionSelectorSectionList from "./SXSectionSelectorSectionList";
+import SXSectionSelectorSectionList from "./SXSectionSelectorSectionList.vue";
 
 const sections = {
   "source section 0": "target section 0",

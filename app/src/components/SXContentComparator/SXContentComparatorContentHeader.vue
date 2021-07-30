@@ -53,7 +53,7 @@ import {
   mwIconLinkExternal
 } from "@/lib/mediawiki.ui/components/icons";
 import { mapGetters, mapState } from "vuex";
-import SxContentComparatorSourceVsTargetSelector from "@/components/SXContentComparator/SourceVsTargetSelector";
+import SxContentComparatorSourceVsTargetSelector from "@/components/SXContentComparator/SourceVsTargetSelector.vue";
 export default {
   name: "SxContentComparatorContentHeader",
   components: {

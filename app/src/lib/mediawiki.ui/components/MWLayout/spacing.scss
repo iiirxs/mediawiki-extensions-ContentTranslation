@@ -1,5 +1,5 @@
 @use "variables" as *;
-@use "breakpoints" as *;
+@use "breakpoints.module" as *;
 @use "helpers" as *;
 
 // Generate margin and padding style for different breakpoints.

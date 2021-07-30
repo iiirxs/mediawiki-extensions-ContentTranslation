@@ -65,11 +65,11 @@ import {
 } from "@/lib/mediawiki.ui/components/icons";
 import { getAutonym } from "@wikimedia/language-data";
 import { mapState } from "vuex";
-import SxArticleLanguageSelector from "../SXArticleLanguageSelector";
-import SxSectionSelectorViewArticleItem from "./SXSectionSelectorViewArticleItem";
-import SxSectionSelectorHeader from "./SXSectionSelectorHeader";
-import SxSectionSelectorSectionListMissing from "./SXSectionSelectorSectionListMissing";
-import SxSectionSelectorSectionListPresent from "./SXSectionSelectorSectionListPresent";
+import SxArticleLanguageSelector from "../SXArticleLanguageSelector.vue";
+import SxSectionSelectorViewArticleItem from "./SXSectionSelectorViewArticleItem.vue";
+import SxSectionSelectorHeader from "./SXSectionSelectorHeader.vue";
+import SxSectionSelectorSectionListMissing from "./SXSectionSelectorSectionListMissing.vue";
+import SxSectionSelectorSectionListPresent from "./SXSectionSelectorSectionListPresent.vue";
 import { getUrl, siteMapper } from "@/utils/mediawikiHelper";
 
 export default {

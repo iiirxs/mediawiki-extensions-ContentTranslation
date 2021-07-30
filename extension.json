@@ -245,7 +245,7 @@
 		},
 		"ContentTranslationEnableSectionTranslation": {
 			"description": "Whether section translation is enabled",
-			"value": false
+			"value": true
 		},
 		"ContentTranslationEnableAnonSectionTranslation": {
 			"description": "Whether section translation is enabled for anonymous users",
@@ -410,15 +410,13 @@
 				"mobile"
 			],
 			"scripts": [
-				"dist/js/cx.js",
-				"dist/js/cx.libs.js",
-				"dist/js/cx.ui.js"
+				"dist/cx3.es.js"
 			],
 			"styles": [
-				"dist/css/cx.css",
-				"dist/css/cx.ui.css"
+				"dist/style.css"
 			],
 			"dependencies": [
+				"vue",
 				"mediawiki.user",
 				"mw.cx.SiteMapper",
 				"mw.cx.util"

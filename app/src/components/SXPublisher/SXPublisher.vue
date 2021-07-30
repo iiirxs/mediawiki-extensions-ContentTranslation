@@ -47,10 +47,10 @@ import {
   mwIconEdit
 } from "@/lib/mediawiki.ui/components/icons";
 import { MwButton, MwRow, MwCol } from "@/lib/mediawiki.ui";
-import SxPublisherHeader from "./SXPublisherHeader";
-import SxPublisherAnimationDialog from "./SXPublisherAnimationDialog";
-import SxPublishOptionSelector from "./SXPublishOptionSelector";
-import SxPublisherReviewInfo from "./SXPublisherReviewInfo";
+import SxPublisherHeader from "./SXPublisherHeader.vue";
+import SxPublisherAnimationDialog from "./SXPublisherAnimationDialog.vue";
+import SxPublishOptionSelector from "./SXPublishOptionSelector.vue";
+import SxPublisherReviewInfo from "./SXPublisherReviewInfo.vue";
 import { computed, ref } from "@vue/composition-api";
 import publishTranslation from "./publishTranslation";
 export default {

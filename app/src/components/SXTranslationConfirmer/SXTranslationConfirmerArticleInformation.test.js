@@ -1,4 +1,4 @@
-import SXTranslationConfirmerArticleInformation from "./SXTranslationConfirmerArticleInformation";
+import SXTranslationConfirmerArticleInformation from "./SXTranslationConfirmerArticleInformation.vue";
 import { mount, createLocalVue } from "@vue/test-utils";
 import VueBananaI18n from "vue-banana-i18n";
 import Vuex from "vuex";

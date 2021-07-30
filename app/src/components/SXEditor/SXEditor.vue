@@ -18,9 +18,9 @@
 
 <script>
 import { ref } from "@vue/composition-api";
-import VisualEditor from "@/plugins/ve/components/VisualEditor";
+import VisualEditor from "@/plugins/ve/components/VisualEditor.vue";
 import { MwSpinner } from "@/lib/mediawiki.ui";
-import SxEditorOriginalContent from "@/components/SXEditor/SXEditorOriginalContent";
+import SxEditorOriginalContent from "@/components/SXEditor/SXEditorOriginalContent.vue";
 
 export default {
   name: "SxEditor",

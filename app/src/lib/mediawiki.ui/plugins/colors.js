@@ -1,4 +1,4 @@
-import colors from "../variables/colors.less";
+import colors from "../variables/colors.module.less";
 
 const install = function(Vue) {
   const currentVue = new Vue();

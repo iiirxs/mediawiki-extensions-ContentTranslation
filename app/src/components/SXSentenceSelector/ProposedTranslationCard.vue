@@ -40,8 +40,8 @@ import {
   mwIconEdit,
   mwIconEllipsis
 } from "@/lib/mediawiki.ui/components/icons";
-import ProposedTranslationActionButtons from "./ProposedTranslationActionButtons";
-import ProposedTranslationHeader from "./ProposedTranslationHeader";
+import ProposedTranslationActionButtons from "./ProposedTranslationActionButtons.vue";
+import ProposedTranslationHeader from "./ProposedTranslationHeader.vue";
 import MTProviderGroup from "@/wiki/mw/models/mtProviderGroup";
 import { mapGetters, mapState } from "vuex";
 

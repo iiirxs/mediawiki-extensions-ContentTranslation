@@ -10,7 +10,7 @@ import {
   SXEditor,
   SXPublisher,
   SXArticleSearch
-} from "@/views";
+} from "../views";
 
 Vue.use(VueRouter);
 

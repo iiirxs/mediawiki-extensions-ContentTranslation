@@ -1,4 +1,4 @@
-import SxTranslationConfirmerActionPanel from "./SXTranslationConfirmerActionPanel";
+import SxTranslationConfirmerActionPanel from "./SXTranslationConfirmerActionPanel.vue";
 import { mount, createLocalVue } from "@vue/test-utils";
 import SectionSuggestion from "../../wiki/cx/models/sectionSuggestion";
 import VueBananaI18n from "vue-banana-i18n";

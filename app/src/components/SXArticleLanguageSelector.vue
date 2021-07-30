@@ -10,7 +10,7 @@
 
 <script>
 import { mapState, mapGetters } from "vuex";
-import SxTranslationListLanguageSelector from "./CXDashboard/SXTranslationListLanguageSelector";
+import SxTranslationListLanguageSelector from "./CXDashboard/SXTranslationListLanguageSelector.vue";
 
 export default {
   name: "SxArticleLanguageSelector",

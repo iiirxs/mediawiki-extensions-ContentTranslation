@@ -41,8 +41,8 @@
 </template>
 
 <script>
-import CxTranslationList from "./CXTranslationList";
-import CxSuggestionList from "./CXSuggestionList";
+import CxTranslationList from "./CXTranslationList.vue";
+import CxSuggestionList from "./CXSuggestionList.vue";
 import { ref, watch, computed, onMounted } from "@vue/composition-api";
 import {
   MwButtonGroup,
@@ -56,7 +56,7 @@ import {
   mwIconLightBulb,
   mwIconEdit
 } from "@/lib/mediawiki.ui/components/icons";
-import ExperimentalSupportBanner from "./ExperimentalSupportBanner";
+import ExperimentalSupportBanner from "./ExperimentalSupportBanner.vue";
 
 export default {
   name: "CxDashboard",
